@@ -101,7 +101,7 @@ body {
 	line-height: 1.6;
 	font-weight: 400;
 	letter-spacing: .075em;
-	color: #777777;
+	color: #73553C;
 	background-color: #6e8c6e;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -268,7 +268,7 @@ h6,
 	line-height: 1.5;
 	font-weight: 400;
 	letter-spacing: .2em;
-	color: #777777;
+	color: #73553C;
 }
 
 small,
@@ -2295,7 +2295,7 @@ input:-webkit-autofill ~ .form-validation {
 	font-weight: 400;
 	line-height: 26px;
 	letter-spacing: .075em;
-	color: #777777;
+	color: #73553C;
 	background-color: #ffffff;
 	background-image: none;
 	border-radius: 0;
@@ -2318,7 +2318,7 @@ textarea.form-input {
 .form-label,
 .form-label-outside {
 	margin-bottom: 0;
-	color: #777777;
+	color: #73553C;
 	font-weight: 400;
 }
 
@@ -2346,7 +2346,7 @@ textarea.form-input {
 }
 
 .form-label.auto-fill {
-	color: #777777;
+	color: #73553C;
 }
 
 .form-label-outside {
@@ -3065,7 +3065,7 @@ p + .quote-classic {
 	font-style: italic;
 	text-transform: none;
 	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-	color: #777777;
+	color: #73553C;
 }
 
 .quote-modern-author {
@@ -3532,7 +3532,7 @@ p + .quote-classic {
 }
 
 .breadcrumbs-custom-path a, .breadcrumbs-custom-path a:active, .breadcrumbs-custom-path a:focus {
-	color: #777777;
+	color: #73553C;
 }
 
 .breadcrumbs-custom-path li {
@@ -4693,7 +4693,7 @@ html.boxed body {
 }
 
 .text-gray-600 {
-	color: #777777;
+	color: #73553C;
 }
 
 .text-white-03 {
@@ -5626,7 +5626,7 @@ AQUI TEM TODAS AS CORES DE FUNDO
 }
 
 .bg-gray-600 {
-	background-color: #777777;
+	background-color: #73553C;
 }
 
 .bg-gray-800 {
@@ -5829,7 +5829,7 @@ AQUI TEM TODAS AS CORES DE FUNDO
 p.rights {
 	font-size: 15px;
 	letter-spacing: .075em;
-	color: #777777;
+	color: #73553C;
 }
 
 p.rights a {
@@ -10793,7 +10793,7 @@ html.rd-navbar-fixed-linked .page {
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	font-family: "Asfalto";
-	color: #777777;
+	color: #73553C;
 	background: #ffffff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
 	transform: translate3d(-50%, 0, 0);
@@ -10905,7 +10905,7 @@ html.rd-navbar-fixed-linked .page {
 	margin: 0;
 	border-radius: 0;
 	border: 0;
-	color: #777777;
+	color: #73553C;
 	font-family: "Asfalto";
 }
 
@@ -11029,7 +11029,7 @@ h3 + .tabs-custom {
 }
 
 .tab-content-1 {
-	color: #777777;
+	color: #73553C;
 }
 
 .tab-content-1 h4 + p {
@@ -11452,7 +11452,7 @@ h3 + .tabs-custom {
 	font-weight: 500;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	color: #777777;
+	color: #73553C;
 }
 
 .nav-link-4.active {
@@ -13860,7 +13860,7 @@ Version: 3.5.4 Timestamp: Sun Aug 30 13:30:32 EDT 2015
 .select2-container .select2-choice {
 	display: block;
 	position: relative;
-	color: #777777;
+	color: #73553C;
 	background-color: #ffffff;
 	padding: 16px 40px 16px 26px;
 	border-radius: 0;
@@ -13931,7 +13931,7 @@ Version: 3.5.4 Timestamp: Sun Aug 30 13:30:32 EDT 2015
 	z-index: 100;
 	top: 100%;
 	background: #ffffff;
-	color: #777777;
+	color: #73553C;
 	border: 1px solid #e1e1e1;
 	border-top: 0;
 	border-radius: 0 0 0 0;
@@ -13980,7 +13980,7 @@ Version: 3.5.4 Timestamp: Sun Aug 30 13:30:32 EDT 2015
 	outline: 0;
 	font-size: 1em;
 	background-color: #ffffff;
-	color: #777777;
+	color: red
 	border: 1px solid #e1e1e1;
 }
 
