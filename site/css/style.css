@@ -3201,6 +3201,7 @@ p + .quote-classic {
 	.owl-item .quote-tara-text {
 		display: flex;
 		overflow: hidden;
+		color: #ffffff;
 		height: 144px;
 		transition: all .4s ease;
 		will-change: transform;
