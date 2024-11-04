@@ -65,35 +65,18 @@
 		}
 
 		// Isotope
-		// Verifique se há itens isotope no objeto plugins
-if (plugins.isotope.length) {
-	for (var i = 0; i < plugins.isotope.length; i++) {
-		var isotopeItem = $(plugins.isotope[i]);
+		if (plugins.isotope.length) {
+			for (var i = 0; i < plugins.isotope.length; i++) {
+				var isotopeItem = plugins.isotope[i];
+				isotopeItem.isotope.layout();
 
-		// Inicialize o Isotope, caso ainda não esteja inicializado
-		if (!isotopeItem.data('isotope')) {
-			isotopeItem.isotope({
-				itemSelector: '.item', // ajuste conforme o seletor dos itens
-				layoutMode: 'masonry' // ajuste para o layout desejado
-			});
+				window.addEventListener('resize', function () {
+					setTimeout(function () {
+						isotopeItem.isotope.layout();
+					}, 2000);
+				});
+			}
 		}
-
-		// Após inicializar, verifique novamente se o Isotope está ativo para chamar layout
-		if (isotopeItem.data('isotope')) {
-			isotopeItem.isotope('layout');
-		}
-
-		// Ajuste do layout no redimensionamento da janela
-		window.addEventListener('resize', function () {
-			setTimeout(function () {
-				if (isotopeItem.data('isotope')) {
-					isotopeItem.isotope('layout');
-				}
-			}, 2000);
-		});
-	}
-}
-
 	});
 
 	// Initialize scripts that require a finished document
