@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/site/assets/css/cadastro.css">
+    <title>Formulário de Cadastro</title>
+    <script>
+        function validarFormulario(event) {
+            // Pegando os campos do formulário
+            var primeiroNome = document.getElementById('firstname').value;
+            var sobrenome = document.getElementById('lastname').value;
+            var email = document.getElementById('email').value;
+            var telefone = document.getElementById('number').value;
+            var senha = document.getElementById('password').value;
+            var confirmaSenha = document.getElementById('Confirmepassword').value;
+
+            // Verifica se algum campo obrigatório está vazio
+            if (!primeiroNome || !sobrenome || !email || !telefone || !senha || !confirmaSenha) {
+                alert('Por favor, preencha todos os campos!');
+                event.preventDefault(); // Impede o envio do formulário
+                return false;
+            }
+
+            // Verifica se as senhas coincidem
+            if (senha !== confirmaSenha) {
+                alert('As senhas não coincidem!');
+                event.preventDefault(); // Impede o envio do formulário
+                return false;
+            }
+
+            // Se tudo estiver correto, o formulário pode ser enviado
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_forgot_password_re_hxwm.svg" alt="Imagem de recuperação de senha">
+        </div>
+        <div class="form">
+            <form action="Login.html" onsubmit="return validarFormulario(event)">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Telefone</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Confirmepassword">Confirme sua senha</label>
+                        <input id="Confirmepassword" type="password" name="Confirmepassword" placeholder="Confirme sua senha" required> 
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-inputs">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-inputs">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-inputs">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-inputs">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit">Continuar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

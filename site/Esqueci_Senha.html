@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="/site/assets/php/redefinir_senha.php">
+</head>
+<body>
+
+    <div class="page">
+        <form method="POST" action="/site/assets/php/processar_recuperacao.php" class="formRecuperarSenha">
+            <h1>Recuperar Senha</h1>
+            <p>Insira o e-mail associado à sua conta para redefinir sua senha.</p>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+
+            <input type="submit" value="Enviar" class="btn" />
+            
+            <p><a href="Login.html">Voltar para o Login</a></p>
+        </form>
+    </div>
+    
+</body>
+</html>
+

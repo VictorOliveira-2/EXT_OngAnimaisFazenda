@@ -1,0 +1,89 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+}
+
+/* Container da página de formulário */
+.page {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Título do formulário */
+.formRecuperarSenha h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Texto de instrução */
+.formRecuperarSenha p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o label */
+.formRecuperarSenha label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Campo de entrada */
+.formRecuperarSenha input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botão de envio */
+.formRecuperarSenha .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formRecuperarSenha .btn:hover {
+    background-color: #45a049;
+}
+
+/* Link para voltar ao login */
+.formRecuperarSenha a {
+    display: block;
+    margin-top: 15px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.formRecuperarSenha a:hover {
+    text-decoration: underline;
+}
