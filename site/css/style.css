@@ -15191,4 +15191,8 @@ disabled look for disabled choices in the results dropdown
 		padding-left: 70px;
 		padding-right: 70px;
 	}
+
+	.alert{ 
+		background-color: blue;
+	}
 }
