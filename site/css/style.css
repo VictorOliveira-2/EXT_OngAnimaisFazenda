@@ -15164,7 +15164,24 @@ disabled look for disabled choices in the results dropdown
 .slick-style-2 .quote-paris {
 	background: inherit;
 }
-
+.container-statsAnimais{
+	display: flex;
+	flex-direction: column;
+	
+}
+.statsAnimais{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+}
+#imgAnimais{
+	padding: 10px;
+	margin: 10px;
+	width: 370px;
+	height: 278px;
+}
 @media (min-width: 576px) {
 	.slick-style-2 {
 		padding: 30px 40px;
