@@ -149,13 +149,23 @@
                   <div class="col-md-6">
                     <div class="form-wrap">
                       <!--Select 2-->
-                      <select class="form-input" data-minimum-results-for-search="Infinity" data-constraints="@Required">
+                      <select class="form-input" data-minimum-results-for-search="Infinity" data-constraints="@Required" onchange="checkDenuncia(this)">
                         <option value="1">Selecione o serviço</option>
                         <option value="2">Doação</option>
                         <option value="3">Visita</option>
                         <option value="4">Adoção</option>
                         <option value="5">Denúncia</option>
                       </select>
+                      
+                      <script>
+                        function checkDenuncia(selectElement) {
+                          // Verifica se a opção "Denúncia" foi selecionada (value="5")
+                          if (selectElement.value == "5") {
+                            alert("Você seleciou a opção DENÚNCIA, caso prefira, acesse: https://www.webdenuncia.sp.gov.br/depa");
+                          }
+                        }
+                      </script>
+                      
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -193,10 +203,10 @@
                     </div>
                   </div>
                   <div class="col-sm-6 col-lg-12 aside-contacts-item">
-                    <p class="aside-contacts-title">E-mail</p>
+                    <p class="aside-contacts-title">E-mail direto</p>
                     <div class="unit unit-spacing-xs justify-content-center justify-content-md-start">
                       <div class="unit-left"><span class="icon mdi mdi-email-outline"></span></div>
-                      <div class="unit-body"><a class="mail" href="mailto:#">amigosdocampo@gmail.com</a></div>
+                      <div class="unit-body"><a class="mail" href="mailto:amigosdocampo@gmail.com">amigosdocampo@gmail.com</a></div>
                     </div>
                   </div>
                   <div class="col-sm-6 col-lg-12 aside-contacts-item">
