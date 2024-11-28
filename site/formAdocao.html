@@ -48,28 +48,38 @@
         <legend>Formulário para Adoção de Animais</legend>
         <label for="nome">Digite seu nome:</label>
         <input type="text" name="nome" id="nome">
+        <div class="ocultar" id="validaNome">*Nome inválido</div>
 
         <label for="cpf">Digite seu CPF:</label>
         <input type="text" name="cpf" id="cpf">
+        <div class="ocultar" id="validaCpf">*CPF inválido</div>
 
         <label for="tel">Digite seu telefone:</label>
         <input type="tel" name="tel" id="tel">
+        <div class="ocultar" id="validaTel">*Telefone inválido</div>
 
         <label for="email">Digite seu e-mail:</label>
         <input type="email" name="email" id="email">
+        <div class="ocultar" id="validaEmail">*email inválido</div>
 
         <label for="dataNasc">Data de nascimento:</label>
         <input type="date" name="dataNasc" id="dataNasc">
+        <div class="ocultar" id="validaDataNasc">*Data de nascimento inválido</div>
+
         <label for="descricao">Descreva o porquê você deseja adotar este animal:</label>
         <textarea name="descricao" id="descricao" rows="10" cols="40"></textarea>
+        <div class="ocultar" id="validaDescricao">*Obrigatório adicionar uma descrição</div>
     </fieldset>
 
     <fieldset>
         <legend>Endereço</legend>
         <label for="endereço">Digite seu endereço:</label>
         <input type="text" name="endereco" id="endereco">
+        <div class="ocultar" id="validaEndereco">*Endereço inválido</div>
         <label for="cidade">Digite sua cidade:</label>
         <input type="text" name="cidade" id="cidade">
+        <div class="ocultar" id="validaCidade">*Cidade inválida</div>
+
         <label for="">Estado:</label>
         <select name="estado" id="estado">
             <option value="sp">SP</option>
@@ -84,6 +94,7 @@
     
     <footer>
         <p>&copy; 2024 Amigos do Campo. Todos os direitos reservados.</p>
+        <img src="images/logotipoOng.png" width="10%" height="15%">
     </footer>
     <script src="js/validacaoFormAdocao.js"></script>
 </body>
