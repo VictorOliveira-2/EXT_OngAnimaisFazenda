@@ -1878,6 +1878,17 @@ button {
 	}
 }
 
+.button-legal {
+	padding: 15px 10px;
+	font-size: 16px;
+	line-height: 1.85;
+	min-width: 200px;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 2px !important;
+	margin-right: 50px;
+}
+
 .button-lg {
 	padding: 20px 45px;
 	font-size: 16px;
@@ -15214,3 +15225,11 @@ disabled look for disabled choices in the results dropdown
 		background-color: blue;
 	}
 }
+	.divisona {
+		display: flex;
+		flex-direction: row;
+		align-items: end;
+	}
+	.correio {
+		background-color: #9370DB;
+	}
