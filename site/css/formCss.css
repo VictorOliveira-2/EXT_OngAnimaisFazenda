@@ -132,3 +132,150 @@ footer p {
   margin: 0;
 }
 
+
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.imagem-article{
+  width: 20%;
+  height: auto;
+  border-radius: 25%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagem-cabecalho img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-caoCavalo{
+  text-align: center;
+  width: 40%;
+  height: auto;
+  border-radius: 15%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+.container-requisitos{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 60px;
+}
+.imagem-requisitos{
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+h2, h3 {
+  color: #2C3E50;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn-submit{
+   margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+#btn-submit{
+  color: #fff;
+  background-color: #4CAF50
+}
+.container-boas{
+  text-align: center;
+  white-space: pre-line;
+}
+
+legend{
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.erroFormulario{
+  /*border: 1px solid #f00*/
+  border-color: #f00;
+  border-radius: 3px;
+}
+
+.ocultar{
+  color: #f00;
+  display: none;
+}
+.exibido{
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+

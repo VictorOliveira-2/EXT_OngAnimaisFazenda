@@ -11,11 +11,27 @@
     <header>
         <div class="imagem-cabecalho">
             <img src="images/logonome.png" alt="Imagem de animais para adoção">
+            <img src="images/logonome.png" alt="Imagem de animais para adoção">
         </div>
+        <h1>Abra o coração e sua porteira para um novo amigo!</h1>
         <h1>Abra o coração e sua porteira para um novo amigo!</h1>
     </header>
 
     <section>
+        <article class="container-requisitos">
+            <div class="requisitos-adocao">
+            <h3>Esses são os requisitos necessários para adotar um novo amigo do campo:</h3>
+            <ul>
+                <li>Você precisa ter mais de 21 anos.</li>
+                <li>Ter condições de proporcionar conforto, saúde e bem-estar para o animal.</li>
+                <li>A sua propriedade deve ser adaptada para recebê-lo, de forma a evitar fugas ou acidentes.</li>
+                <li>Ter tempo para cuidados de vacinação e saúde com seu amigo.</li>
+                <li>Ser paciente e compreensivo no período de adaptação.</li>
+            </ul>
+            </div>
+            <div class="imagem-requisitos">
+                <img  class="imagem-caoCavalo" src="images/adocao.jfif">
+            </div>
         <article class="container-requisitos">
             <div class="requisitos-adocao">
             <h3>Esses são os requisitos necessários para adotar um novo amigo do campo:</h3>
@@ -39,6 +55,12 @@
             <p>Para podermos dar seguimento a adoção, basta preencher o formulário abaixo com seus dados.
                 A partir dele, criaremos um protocolo para seu pedido de adoção. Após enviá-lo, ele será 
                 avaliado por um de nossos profissionais. Você receberá um e-mail com as demais instruções.
+    <section class="container-instrucoes">
+        <article class="container-boas">
+            <h2>Parabéns! Você está iniciando um processo para ganhar um novo companheiro.</h2>
+            <p>Para podermos dar seguimento a adoção, basta preencher o formulário abaixo com seus dados.
+                A partir dele, criaremos um protocolo para seu pedido de adoção. Após enviá-lo, ele será 
+                avaliado por um de nossos profissionais. Você receberá um e-mail com as demais instruções.
             </p>
         </article>
     </section>
@@ -48,28 +70,38 @@
         <legend>Formulário para Adoção de Animais</legend>
         <label for="nome">Digite seu nome:</label>
         <input type="text" name="nome" id="nome">
+        <div class="ocultar" id="validaNome">*Nome inválido</div>
 
         <label for="cpf">Digite seu CPF:</label>
         <input type="text" name="cpf" id="cpf">
+        <div class="ocultar" id="validaCpf">*CPF inválido</div>
 
         <label for="tel">Digite seu telefone:</label>
         <input type="tel" name="tel" id="tel">
+        <div class="ocultar" id="validaTel">*Telefone inválido</div>
 
         <label for="email">Digite seu e-mail:</label>
         <input type="email" name="email" id="email">
+        <div class="ocultar" id="validaEmail">*email inválido</div>
 
         <label for="dataNasc">Data de nascimento:</label>
         <input type="date" name="dataNasc" id="dataNasc">
+        <div class="ocultar" id="validaDataNasc">*Data de nascimento inválido</div>
+
         <label for="descricao">Descreva o porquê você deseja adotar este animal:</label>
         <textarea name="descricao" id="descricao" rows="10" cols="40"></textarea>
+        <div class="ocultar" id="validaDescricao">*Obrigatório adicionar uma descrição</div>
     </fieldset>
 
     <fieldset>
         <legend>Endereço</legend>
         <label for="endereço">Digite seu endereço:</label>
         <input type="text" name="endereco" id="endereco">
+        <div class="ocultar" id="validaEndereco">*Endereço inválido</div>
         <label for="cidade">Digite sua cidade:</label>
         <input type="text" name="cidade" id="cidade">
+        <div class="ocultar" id="validaCidade">*Cidade inválida</div>
+
         <label for="">Estado:</label>
         <select name="estado" id="estado">
             <option value="sp">SP</option>
@@ -84,6 +116,7 @@
     
     <footer>
         <p>&copy; 2024 Amigos do Campo. Todos os direitos reservados.</p>
+        <img src="images/logotipoOng.png" width="10%" height="15%">
     </footer>
     <script src="js/validacaoFormAdocao.js"></script>
 </body>
