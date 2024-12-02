@@ -15233,3 +15233,8 @@ disabled look for disabled choices in the results dropdown
 	.correio {
 		background-color: #9370DB;
 	}
+
+	.linha {
+		margin: 0;
+		height: 40px;
+	}
