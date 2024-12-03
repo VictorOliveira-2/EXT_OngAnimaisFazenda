@@ -15238,3 +15238,21 @@ disabled look for disabled choices in the results dropdown
 		margin: 0;
 		height: 40px;
 	}
+	.logo1 {
+		width: 160px;
+		border: 1px solid;
+		border-color: black;
+		height: auto;
+		margin-right: 8px;
+	}
+	.logo2 {
+		width: 162px;
+		border: 1px solid;
+		height: auto;
+		border-color: black;
+	}
+	.divisa {
+		display: flex;
+		flex-direction: row;
+		align-items: end;
+	}
